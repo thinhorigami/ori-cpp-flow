@@ -1,0 +1,2 @@
+
+cmake --install ./.zely/build
