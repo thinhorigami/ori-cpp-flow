@@ -1,11 +1,10 @@
 {
     "cmake.configureArgs": [
-        "-Dzely_WARE:PATH=/${env:zely}/ware",
-        "-DCMAKE_INSTALL_PREFIX=/${env:zely}/ware"
+        "-Dzely_REPO_DIR=/${env:zely}/repo"
     ],
     "cmake.generator": "Ninja",
     "cmake.buildDirectory": "${workspaceFolder}/.zely/build",
-    "cmake.installPrefix": "${env:zely}/ware",
+    "cmake.installPrefix": "${env:zely}/repo",
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/.zely/build",
         "--clang-tidy",
