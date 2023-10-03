@@ -1,12 +1,12 @@
 {
     "cmake.configureArgs": [
-        "-Dzely_REPO_DIR=/${env:zely}/repo"
+        "-Dori_REPO_DIR=/${env:ori}/repo"
     ],
     "cmake.generator": "Ninja",
-    "cmake.buildDirectory": "${workspaceFolder}/.zely/build",
-    "cmake.installPrefix": "${env:zely}/repo",
+    "cmake.buildDirectory": "${workspaceFolder}/.ori/build",
+    "cmake.installPrefix": "${env:ori}/repo",
     "clangd.arguments": [
-        "--compile-commands-dir=${workspaceFolder}/.zely/build",
+        "--compile-commands-dir=${workspaceFolder}/.ori/build",
         "--clang-tidy",
     ]
 }
